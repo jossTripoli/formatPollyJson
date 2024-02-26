@@ -1,4 +1,4 @@
-{"intrepid": [
+{"daring": [
 	{"time": 1325,"type": "word","value": "The","element": "narrate-1"},
 	{"time": 1425,"type": "word","value": "Johnsons'","element": "narrate-1"},
 	{"time": 1912,"type": "word","value": "Identity","element": "narrate-1"},
@@ -23,5 +23,4 @@
 	{"time": 8310,"type": "word","value": "start","element": "narrate-1"},
 	{"time": 8610,"type": "word","value": "the","element": "narrate-1"},
 	{"time": 8672,"type": "word","value": "video","element": "narrate-1"}
-		]
-}
+]}
