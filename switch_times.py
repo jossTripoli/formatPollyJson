@@ -14,7 +14,7 @@ def switch_times(first_json, second_json, output_file):
     with open(output_file, 'w', encoding="utf-8") as outfile:
         for item in data["daring"]:
             outfile.write(json.dumps(item, separators=(',', ': ')) + ',\n')
-
+    
 if __name__ == "__main__":
     first_json_file = "first.json"
     second_json_file = "second.json"
