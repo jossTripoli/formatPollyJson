@@ -2,109 +2,73 @@ import json
 
 def format_strings_to_json():
     intrepid_string = '''
-    {"time":187,"type":"word","start":13,"end":20,"value":"Reflect"}
-    {"time":1380,"type":"word","start":34,"end":38,"value":"Take"}
-    {"time":1567,"type":"word","start":39,"end":40,"value":"a"}
-    {"time":1642,"type":"word","start":41,"end":47,"value":"moment"}
-    {"time":2005,"type":"word","start":48,"end":50,"value":"to"}
-    {"time":2130,"type":"word","start":51,"end":56,"value":"think"}
-    {"time":2342,"type":"word","start":57,"end":62,"value":"about"}
-    {"time":2630,"type":"word","start":63,"end":66,"value":"the"}
-    {"time":2755,"type":"word","start":67,"end":76,"value":"following"}
-    {"time":4727,"type":"word","start":92,"end":95,"value":"Can"}
-    {"time":4902,"type":"word","start":96,"end":99,"value":"you"}
-    {"time":5002,"type":"word","start":100,"end":106,"value":"recall"}
-    {"time":5402,"type":"word","start":107,"end":108,"value":"a"}
-    {"time":5527,"type":"word","start":109,"end":113,"value":"time"}
-    {"time":5839,"type":"word","start":114,"end":118,"value":"when"}
-    {"time":5964,"type":"word","start":119,"end":122,"value":"you"}
-    {"time":6152,"type":"word","start":123,"end":129,"value":"shared"}
-    {"time":6402,"type":"word","start":130,"end":141,"value":"information"}
-    {"time":6977,"type":"word","start":142,"end":147,"value":"about"}
-    {"time":7227,"type":"word","start":148,"end":156,"value":"yourself"}
-    {"time":7714,"type":"word","start":157,"end":161,"value":"that"}
-    {"time":7852,"type":"word","start":162,"end":165,"value":"you"}
-    {"time":7977,"type":"word","start":166,"end":171,"value":"later"}
-    {"time":8302,"type":"word","start":172,"end":181,"value":"regretted"}
-    {"time":9444,"type":"word","start":183,"end":185,"value":"If"}
-    {"time":9569,"type":"word","start":186,"end":188,"value":"so"}
-    {"time":10007,"type":"word","start":190,"end":194,"value":"what"}
-    {"time":10294,"type":"word","start":195,"end":203,"value":"happened"}
-    {"time":11662,"type":"word","start":219,"end":224,"value":"Given"}
-    {"time":11924,"type":"word","start":225,"end":229,"value":"what"}
-    {"time":12099,"type":"word","start":230,"end":236,"value":"you've"}
-    {"time":12287,"type":"word","start":237,"end":244,"value":"learned"}
-    {"time":12537,"type":"word","start":245,"end":250,"value":"about"}
-    {"time":12787,"type":"word","start":251,"end":255,"value":"what"}
-    {"time":13037,"type":"word","start":256,"end":264,"value":"personal"}
-    {"time":13474,"type":"word","start":265,"end":276,"value":"information"}
-    {"time":14112,"type":"word","start":277,"end":285,"value":"scammers"}
-    {"time":14599,"type":"word","start":286,"end":289,"value":"are"}
-    {"time":14787,"type":"word","start":290,"end":295,"value":"after"}
-    {"time":15362,"type":"word","start":297,"end":301,"value":"will"}
-    {"time":15474,"type":"word","start":302,"end":307,"value":"there"}
-    {"time":15662,"type":"word","start":308,"end":310,"value":"be"}
-    {"time":15724,"type":"word","start":311,"end":312,"value":"a"}
-    {"time":15849,"type":"word","start":313,"end":323,"value":"difference"}
-    {"time":16274,"type":"word","start":324,"end":326,"value":"in"}
-    {"time":16412,"type":"word","start":327,"end":331,"value":"what"}
-    {"time":16549,"type":"word","start":332,"end":335,"value":"you"}
-    {"time":16624,"type":"word","start":336,"end":340,"value":"will"}
-    {"time":16849,"type":"word","start":341,"end":346,"value":"share"}
-    {"time":17099,"type":"word","start":347,"end":353,"value":"online"}
-    '''
+{"time":187,"type":"word","start":13,"end":21,"value":"Identity"}
+{"time":712,"type":"word","start":22,"end":27,"value":"Theft"}
+{"time":1000,"type":"word","start":28,"end":34,"value":"Basics"}
+{"time":2255,"type":"word","start":48,"end":56,"value":"Identity"}
+{"time":2780,"type":"word","start":57,"end":62,"value":"theft"}
+{"time":3105,"type":"word","start":63,"end":65,"value":"is"}
+{"time":3217,"type":"word","start":66,"end":70,"value":"when"}
+{"time":3380,"type":"word","start":71,"end":75,"value":"your"}
+{"time":3530,"type":"word","start":76,"end":84,"value":"personal"}
+{"time":3942,"type":"word","start":85,"end":96,"value":"information"}
+{"time":4580,"type":"word","start":97,"end":99,"value":"is"}
+{"time":4705,"type":"word","start":100,"end":106,"value":"stolen"}
+{"time":5192,"type":"word","start":107,"end":110,"value":"and"}
+{"time":5330,"type":"word","start":111,"end":115,"value":"used"}
+{"time":5567,"type":"word","start":116,"end":123,"value":"against"}
+{"time":6017,"type":"word","start":124,"end":127,"value":"you"}
+{"time":6897,"type":"word","start":141,"end":148,"value":"Example"}
+{"time":7647,"type":"word","start":150,"end":153,"value":"Mr."}
+{"time":8022,"type":"word","start":154,"end":161,"value":"Johnson"}
+{"time":8485,"type":"word","start":162,"end":169,"value":"sharing"}
+{"time":8835,"type":"word","start":170,"end":173,"value":"his"}
+{"time":9085,"type":"word","start":174,"end":182,"value":"personal"}
+{"time":9535,"type":"word","start":183,"end":187,"value":"info"}
+{"time":10022,"type":"word","start":188,"end":192,"value":"over"}
+{"time":10272,"type":"word","start":193,"end":196,"value":"the"}
+{"time":10385,"type":"word","start":197,"end":202,"value":"phone"}
+{"time":10660,"type":"word","start":203,"end":210,"value":"allowed"}
+{"time":11022,"type":"word","start":211,"end":219,"value":"scammers"}
+{"time":11522,"type":"word","start":220,"end":222,"value":"to"}
+{"time":11647,"type":"word","start":223,"end":227,"value":"make"}
+{"time":11947,"type":"word","start":228,"end":240,"value":"unauthorized"}
+{"time":12585,"type":"word","start":241,"end":248,"value":"charges"}
+'''
     valiant_string = '''
-    {"time":25,"type":"word","start":13,"end":20,"value":"Reflect"}
-    {"time":1030,"type":"word","start":34,"end":38,"value":"Take"}
-    {"time":1230,"type":"word","start":39,"end":40,"value":"a"}
-    {"time":1267,"type":"word","start":41,"end":47,"value":"moment"}
-    {"time":1592,"type":"word","start":48,"end":50,"value":"to"}
-    {"time":1667,"type":"word","start":51,"end":56,"value":"think"}
-    {"time":1880,"type":"word","start":57,"end":62,"value":"about"}
-    {"time":2092,"type":"word","start":63,"end":66,"value":"the"}
-    {"time":2167,"type":"word","start":67,"end":76,"value":"following"}
-    {"time":4039,"type":"word","start":92,"end":95,"value":"Can"}
-    {"time":4189,"type":"word","start":96,"end":99,"value":"you"}
-    {"time":4289,"type":"word","start":100,"end":106,"value":"recall"}
-    {"time":4664,"type":"word","start":107,"end":108,"value":"a"}
-    {"time":4702,"type":"word","start":109,"end":113,"value":"time"}
-    {"time":5064,"type":"word","start":114,"end":118,"value":"when"}
-    {"time":5189,"type":"word","start":119,"end":122,"value":"you"}
-    {"time":5277,"type":"word","start":123,"end":129,"value":"shared"}
-    {"time":5602,"type":"word","start":130,"end":141,"value":"information"}
-    {"time":6139,"type":"word","start":142,"end":147,"value":"about"}
-    {"time":6402,"type":"word","start":148,"end":156,"value":"yourself"}
-    {"time":6789,"type":"word","start":157,"end":161,"value":"that"}
-    {"time":6952,"type":"word","start":162,"end":165,"value":"you"}
-    {"time":7027,"type":"word","start":166,"end":171,"value":"later"}
-    {"time":7302,"type":"word","start":172,"end":181,"value":"regretted"}
-    {"time":8319,"type":"word","start":183,"end":185,"value":"If"}
-    {"time":8444,"type":"word","start":186,"end":188,"value":"so"}
-    {"time":9057,"type":"word","start":190,"end":194,"value":"what"}
-    {"time":9207,"type":"word","start":195,"end":203,"value":"happened"}
-    {"time":10287,"type":"word","start":219,"end":224,"value":"Given"}
-    {"time":10587,"type":"word","start":225,"end":229,"value":"what"}
-    {"time":10749,"type":"word","start":230,"end":236,"value":"you've"}
-    {"time":10874,"type":"word","start":237,"end":244,"value":"learned"}
-    {"time":11149,"type":"word","start":245,"end":250,"value":"about"}
-    {"time":11374,"type":"word","start":251,"end":255,"value":"what"}
-    {"time":11599,"type":"word","start":256,"end":264,"value":"personal"}
-    {"time":12037,"type":"word","start":265,"end":276,"value":"information"}
-    {"time":12549,"type":"word","start":277,"end":285,"value":"scammers"}
-    {"time":13012,"type":"word","start":286,"end":289,"value":"are"}
-    {"time":13162,"type":"word","start":290,"end":295,"value":"after"}
-    {"time":13724,"type":"word","start":297,"end":301,"value":"will"}
-    {"time":13837,"type":"word","start":302,"end":307,"value":"there"}
-    {"time":13962,"type":"word","start":308,"end":310,"value":"be"}
-    {"time":14137,"type":"word","start":311,"end":312,"value":"a"}
-    {"time":14187,"type":"word","start":313,"end":323,"value":"difference"}
-    {"time":14637,"type":"word","start":324,"end":326,"value":"in"}
-    {"time":14737,"type":"word","start":327,"end":331,"value":"what"}
-    {"time":14899,"type":"word","start":332,"end":335,"value":"you"}
-    {"time":14987,"type":"word","start":336,"end":340,"value":"will"}
-    {"time":15087,"type":"word","start":341,"end":346,"value":"share"}
-    {"time":15374,"type":"word","start":347,"end":353,"value":"online"}
-    '''
+{"time":25,"type":"word","start":13,"end":21,"value":"Identity"}
+{"time":425,"type":"word","start":22,"end":27,"value":"Theft"}
+{"time":712,"type":"word","start":28,"end":34,"value":"Basics"}
+{"time":1792,"type":"word","start":48,"end":56,"value":"Identity"}
+{"time":2192,"type":"word","start":57,"end":62,"value":"theft"}
+{"time":2580,"type":"word","start":63,"end":65,"value":"is"}
+{"time":2730,"type":"word","start":66,"end":70,"value":"when"}
+{"time":2867,"type":"word","start":71,"end":75,"value":"your"}
+{"time":2955,"type":"word","start":76,"end":84,"value":"personal"}
+{"time":3442,"type":"word","start":85,"end":96,"value":"information"}
+{"time":3955,"type":"word","start":97,"end":99,"value":"is"}
+{"time":4042,"type":"word","start":100,"end":106,"value":"stolen"}
+{"time":4480,"type":"word","start":107,"end":110,"value":"and"}
+{"time":4617,"type":"word","start":111,"end":115,"value":"used"}
+{"time":4867,"type":"word","start":116,"end":123,"value":"against"}
+{"time":5192,"type":"word","start":124,"end":127,"value":"you"}
+{"time":5872,"type":"word","start":141,"end":148,"value":"Example"}
+{"time":6635,"type":"word","start":150,"end":153,"value":"Mr."}
+{"time":6935,"type":"word","start":154,"end":161,"value":"Johnson"}
+{"time":7385,"type":"word","start":162,"end":169,"value":"sharing"}
+{"time":7735,"type":"word","start":170,"end":173,"value":"his"}
+{"time":7860,"type":"word","start":174,"end":182,"value":"personal"}
+{"time":8322,"type":"word","start":183,"end":187,"value":"info"}
+{"time":8647,"type":"word","start":188,"end":192,"value":"over"}
+{"time":8797,"type":"word","start":193,"end":196,"value":"the"}
+{"time":8885,"type":"word","start":197,"end":202,"value":"phone"}
+{"time":9160,"type":"word","start":203,"end":210,"value":"allowed"}
+{"time":9460,"type":"word","start":211,"end":219,"value":"scammers"}
+{"time":9960,"type":"word","start":220,"end":222,"value":"to"}
+{"time":10047,"type":"word","start":223,"end":227,"value":"make"}
+{"time":10272,"type":"word","start":228,"end":240,"value":"unauthorized"}
+{"time":10847,"type":"word","start":241,"end":248,"value":"charges"}
+'''
 
     # INTREPID FORMATTING
     # Split the input string into individual JSON objects
