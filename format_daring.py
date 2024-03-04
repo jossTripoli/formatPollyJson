@@ -48,7 +48,7 @@ original_data = [json.loads(line) for line in original_string.strip().split('\n'
 formatted_data = [{"time": entry["time"],
                    "type": entry["type"],
                    "value": entry["value"],
-                   "element": "narrate-1"} for entry in original_data]
+                   "element": "narrate-1-page"} for entry in original_data]
 
 # Create a dictionary with the new list
 formatted_json = {"daring": formatted_data}
